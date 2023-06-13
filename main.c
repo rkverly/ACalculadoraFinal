@@ -10,6 +10,9 @@ int main(){
     printf("\nDigite o segundo número: ");
     scanf("%f", &num2);
 
+    //soma
+    soma = num1 + num2;
+    printf("Soma: %.2f\n", soma);
 
     //Subtração
     subtracao = num1 - num2;
@@ -26,5 +29,6 @@ int main(){
     }else{
         printf("Nao e possivel dividir por zero.\n");
     }
+
     return 0;
 }
