@@ -11,6 +11,20 @@ int main(){
     scanf("%f", &num2);
 
 
+    //Subtração
+    subtracao = num1 - num2;
+    printf("Subtracao: %.2f\n", subtracao);
 
+    //Multiplicação
+    multiplicacao = num1 * num2;
+    printf("Multiplicacao %.2f\n", multiplicacao);
+
+    //Divisão
+    if(num2 != 0){
+        divisao = num1 / num2;
+        printf("Divisao %.2f\n", divisao);
+    }else{
+        printf("Nao e possivel dividir por zero.\n");
+    }
     return 0;
 }
